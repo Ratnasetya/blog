@@ -5,26 +5,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <style>
-      body {
-        padding: 20px;
-        background: #eee;
-      }
-
-      h2 {
-        display: inline-block;
-        margin: 0;
-        width: 150px;
-        text-align: right;
-        font: bold 20px Sans-Serif;
-      }
-
       div {
-        margin: 0 0 30px 0;
-        padding: 10px;
-        background: white;
-        white-space: nowrap;
+        display: table;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        border: 2px dashed #f69c55;
       }
-      .middle > * {
+      span {
+        display: table-cell;
         vertical-align: middle;
       }
     </style>
@@ -34,8 +23,8 @@
   </head>
   <body>
     
-    <div class="middle">
-      <h2>Hello, world!</h2>
+    <div>
+      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
     </div>
 
     <!-- jQuery first, then Tether, then Bootstrap JS. -->
